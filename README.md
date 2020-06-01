@@ -1,6 +1,31 @@
-# Bootstrap4-and-JavaScript
-## JavaScript
+# Bootstrap 4 and JavaScript
 
+## Examples of Personal Websites
+
+* https://dveleztx.github.io/
+* https://jtom.me/
+* https://caferati.me/
+* https://andrewborstein.com/
+* https://chippd.github.io/
+* https://www.adamhartwig.co.uk/
+* https://derolez.dev/
+* https://www.devonstank.com/
+* http://findmatthew.com/
+* http://brandoncjohnson.com/
+
+## Bootstrap 4
+
+
+
+
+
+
+
+
+## JavaScript
+Is a high-level programming language. It was originally designed as a scripting language for websites but became widely adopted as a general-purpose programming language, and is currently the most popular programming language in use. JavaScript is usually found running in a web browser as interactive or automated content, ranging from popup messages and live clocks to large web applications. JavaScript is also commonly used in server-side programming through platforms like Node.js , or "embedded" in non-JavaScript applications where the base programming language lacks the high-level functionality that JavaScript offers.
+
+Alongside HTML and CSS, JavaScript is one of the core technologies of the World Wide Web. Despite the similarities in name and syntax, JavaScript is not related to the programming language Java. Though the names of both languages are trademarks of Oracle Corporation, the two languages follow different design principles, and are actively developed by unrelated organizations. 
 
 ### [Console API](https://developer.mozilla.org/en-US/docs/Web/API/Console_API)
 The Console API provides functionality to allow developers to perform debugging tasks, such as logging messages or the values of variables at set points in your code, or timing how long an operation takes to complete.
