@@ -18,12 +18,53 @@ let myString = 'Hello world';
 console.log(myString)
 ```
 
-### [EventTarget](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)
-EventTarget is a DOM interface implemented by objects that can receive events and may have listeners for them.
+---
+
+### [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document)
+The Document interface represents any web page loaded in the browser and serves as an entry point into the web page's content, which is the DOM tree. The DOM tree includes elements such as <body> and <table>, among many others. It provides functionality globally to the document, like how to obtain the page's URL and create new elements in the document.
 
 ### Methods
 
-#### onmouseover()
+#### document.getElementById(*id*)
+**Document.getElementById()** returns an Element object representing the element whose id property matches the specified string. Since element IDs are required to be unique if specified, they're a useful way to get access to a specific element quickly.
+
+**id**: The ID of the element to locate. The ID is case-sensitive string which is unique within the document; only one element may have any given ID. 
+##### Syntax
+HTML
+```
+<html>
+<head>
+  <title>getElementById example</title>
+</head>
+<body>
+  <p id="para">Some text here</p>
+  <button onclick="changeColor('blue');">blue</button>
+  <button onclick="changeColor('red');">red</button>
+</body>
+</html>
+```
+JavaScript
+```
+function changeColor(newColor) {
+  var elem = document.getElementById('para');
+  elem.style.color = newColor;
+}
+```
+
+---
+
+#### document.write(*markup*)
+The **document.write()** method writes a string of text to a document stream.
+
+**markup**: A string containing the text to be written to the document 
+
+##### Syntax
+JavaScript
+```
+document.write("<h1>Out with the old - in with the new!</h1>");
+```
+
+---
 
 ### [GlobalEventHandlers](https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers)
 The **GlobalEventHandlers** mixin describes the event handlers common to several interfaces like HTMLElement, Document, or Window. Each of these interfaces can, of course, add more event handlers in addition to the ones listed below.
@@ -101,11 +142,6 @@ There are also DOM Events like DOMContentLoaded and DOMFrameContentLoaded (which
 
 ---
 
-
-
-
----
-
 ### [Window](https://developer.mozilla.org/en-US/docs/Web/API/Window)
 The Window interface represents a window containing a DOM document; the document property points to the DOM document loaded in that window. A window for a given document can be obtained using the document.defaultView property.
 
@@ -127,7 +163,6 @@ or
 alert(message);
 ```
 
-
 ---
 
 #### window.prompt(*message*, *default*)
@@ -143,7 +178,6 @@ result = window.prompt(message, default);
 ```
 
 **NOTE**: The return value of window.prompt() is a string containing the text entered by the user, or null.
-
 
 ---
 
