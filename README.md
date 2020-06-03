@@ -1,5 +1,10 @@
 # Bootstrap 4 and JavaScript
 
+
+
+
+
+
 ## Examples of Personal Websites
 
 * https://dveleztx.github.io/
@@ -21,6 +26,8 @@
 
 
 
+---
+---
 
 ## JavaScript
 Is a high-level programming language. It was originally designed as a scripting language for websites but became widely adopted as a general-purpose programming language, and is currently the most popular programming language in use. JavaScript is usually found running in a web browser as interactive or automated content, ranging from popup messages and live clocks to large web applications. JavaScript is also commonly used in server-side programming through platforms like Node.js , or "embedded" in non-JavaScript applications where the base programming language lacks the high-level functionality that JavaScript offers.
@@ -246,3 +253,31 @@ The fetch() method of the WindowOrWorkerGlobalScope mixin starts the process of 
         The keepalive option can be used to allow the request to outlive the page. Fetch with the keepalive flag is a replacement for the `Navigator.sendBeacon()` API. 
     * signal
         An AbortSignal object instance; allows you to communicate with a fetch request and abort it if desired via an AbortController.
+
+---
+### Additional Resources
+* https://developer.mozilla.org/bm/docs/Web/JavaScript/Guide
+* https://www.w3schools.com/js/
+* http://jsforcats.com/
+* https://www3.ntu.edu.sg/home/ehchua/programming/webprogramming/JavaScript_Introduction.html
+* https://www.asmarterwaytolearn.com/htmlcss/j.html (first page is blank scroll down a little to see the content)
+* https://channel9.msdn.com/Series/Javascript-Fundamentals-Development-for-Absolute-Beginners
+* https://javascript.info/
+
+#### Tutorials
+* https://www.learn-js.org/
+* https://learnjavascript.online/
+* https://www.codecademy.com/learn/introduction-to-javascript
+* https://developer.mozilla.org/en-US/docs/Web/JavaScript
+* https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/
+
+
+
+
+---
+### Programming problems
+1. Write a script that reads an integer and determines and displays whether it is an odd or even number.
+
+2. A company wants to transmit data over a network, but they are concerned that the link may be tapped. All of its data is transmitted as four-digit integers. It has asked you to write a program that will encrypt its data so that the data may be transmitted more securely. Your script should read a four-digit integer entered by the user in a prompt dialog and encrypt it as follows: Replace each digit by (the sum of that digit plus 7) modulus 10 . Then swap the first digit with the third digit, and swap the second digit with the fourth. Then output html5 text that displays the encrypted integer.
+
+3. A mail-order house sells five different products whose retail prices are as follows: product 1, $2.98; product 2, $4.50; product 3, $9.98; product 4, $4.49; and product 5, $6.87. Write a script that reads a series of pairs of numbers as follows: a) Product number b) Quantity sold for one day Your program should use a switch statement to determine each product's retail price and should calculate and output HTML5 that displays the total retail value of all the products sold last week. Use a sentinel-controlled loop to determine when the program should stop looping and display the final results.
